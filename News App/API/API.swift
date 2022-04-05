@@ -7,7 +7,7 @@
 
 
 struct API{
-    static var key = "16840f1e35cf4108ab49f0c8447115ef"
+    static var key = "844238af9e844d21abb839f6a06be3cb"
     
     static func getURL_Search(for search:String)->String{
         return  "https://newsapi.org/v2/everything?q=\(search)&apiKey=\(key)"
